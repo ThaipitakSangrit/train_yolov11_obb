@@ -13,3 +13,27 @@ model.train(
     device=0,
     overlap_mask=False  # ใช้ Mask IoU loss สำหรับ OBB [เพิ่ม]
 )
+
+# dataset/
+# │
+# ├── images/
+# │   ├── train/
+# │   │   ├── img001.jpg
+# │   │   ├── img002.jpg
+# │   │   └── ...
+# │   └── valid/
+# │       ├── img101.jpg
+# │       ├── img102.jpg
+# │       └── ...
+# │
+# ├── labels/
+# │   ├── train/
+# │   │   ├── img001.txt
+# │   │   ├── img002.txt
+# │   │   └── ...
+# │   └── valid/
+# │       ├── img101.txt
+# │       ├── img102.txt
+# │       └── ...
+# │
+# └── data.yaml
