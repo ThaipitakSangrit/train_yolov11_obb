@@ -1,0 +1,7 @@
+path: /dataset  # หรือใช้ '.' ถ้าอยู่ในโฟลเดอร์เดียวกัน
+train: images/train
+val: images/valid
+
+task: obb
+nc: 1  # จำนวนคลาส
+names: ['bbox']  # แก้เป็นชื่อคลาสของคุณ
