@@ -2,6 +2,19 @@ import os
 import random
 import shutil
 
+# wait_data_for_split/
+# │
+# ├── img001.jpg
+# ├── img001.txt
+# │
+# ├── img002.jpg
+# ├── img002.txt
+# │
+# ├── img003.png
+# ├── img003.txt
+# │
+# └── ...
+
 # กำหนด path
 input_dir = './wait_data_for_split'  # โฟลเดอร์ต้นทาง
 target_base_dir = './splited_dataset'  # โฟลเดอร์ปลายทาง
