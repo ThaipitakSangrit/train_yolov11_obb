@@ -2,7 +2,7 @@ import os
 import random
 import shutil
 
-# wait_data_for_split/
+# 1_wait_data_for_split/
 # │
 # ├── img001.jpg
 # ├── img001.txt
@@ -16,8 +16,8 @@ import shutil
 # └── ...
 
 # กำหนด path
-input_dir = './wait_data_for_split'  # โฟลเดอร์ต้นทาง
-target_base_dir = './splited_dataset'  # โฟลเดอร์ปลายทาง
+input_dir = './1_wait_data_for_split'  # โฟลเดอร์ต้นทาง
+target_base_dir = './2_splited_dataset'  # โฟลเดอร์ปลายทาง
 
 # อัตราส่วนแบ่ง
 split_ratios = {
@@ -70,4 +70,5 @@ for split, files in split_files.items():
 
 print("✅ แบ่ง dataset พร้อม label แล้ว:")
 for k, v in split_files.items():
+
     print(f"{k}: {len(v)} รูป")
